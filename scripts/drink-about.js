@@ -2,9 +2,9 @@ function drinkAbout(age) {
     if ((age < 0 || age > 130))  {
         return("Sorry. I can't tell you what to drink because that age is incorrect")
     } else if (age < 14) {
-        return("Drink Toddy");
+        return("Drink Capri-Sun");
     } else if (age < 18) {
-        return("Drink Coke")
+        return("Drink Pepsi")
     } else if (age < 21) {
         return("Drink Beer")
     } else if (age < 131) {
