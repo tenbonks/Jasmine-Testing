@@ -6,12 +6,12 @@ describe("Drink About test", function() {
             expect(drinkAbout(-2)).toBe("Sorry. I can't tell you what to drink because that age is incorrect")
         });
 
-        it ("should return 'Drink Toddy' if age is less then 14", function(){
-            expect(drinkAbout(13)).toBe("Drink Toddy")
+        it ("should return 'Drink Capri-Sun' if age is less then 14", function(){
+            expect(drinkAbout(13)).toBe("Drink Capri-Sun")
         });
 
-        it ("should return 'Drink Coke' if age is less then 18", function(){
-            expect(drinkAbout(15)).toBe("Drink Coke")
+        it ("should return 'Drink Pepsi' if age is less then 18", function(){
+            expect(drinkAbout(15)).toBe("Drink Pepsi")
         });
 
         it ("should return 'Drink Beer' if age is less then 21", function() {
